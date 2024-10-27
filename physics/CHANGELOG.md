@@ -8,6 +8,13 @@ changes will be documented in this file.
 
 ## [Unreleased] - ReleaseDate
 
+### Fixed
+
+- New wire gain calibration from run 11356. A single wire (111) was dead during
+  the previous calibration, so it had to be redone once the wire signal was
+  back. Nothing changed in terms of pads or wire baselines, hence no new
+  calibration for these.
+
 ## [0.1.4] - 2024-10-16
 
 ### Fixed
