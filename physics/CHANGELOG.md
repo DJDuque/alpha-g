@@ -8,6 +8,8 @@ changes will be documented in this file.
 
 ## [Unreleased] - ReleaseDate
 
+## [0.1.5] - 2024-10-27
+
 ### Fixed
 
 - New wire gain calibration from run 11356. A single wire (111) was dead during
@@ -51,6 +53,7 @@ changes will be documented in this file.
   for details.
 
 <!-- next-url -->
-[Unreleased]: https://github.com/ALPHA-g-Experiment/alpha-g/compare/alpha_g_physics-v0.1.4...HEAD
+[Unreleased]: https://github.com/ALPHA-g-Experiment/alpha-g/compare/alpha_g_physics-v0.1.5...HEAD
+[0.1.5]: https://github.com/ALPHA-g-Experiment/alpha-g/compare/alpha_g_physics-v0.1.4...alpha_g_physics-v0.1.5
 [0.1.4]: https://github.com/ALPHA-g-Experiment/alpha-g/compare/alpha_g_physics-v0.1.3...alpha_g_physics-v0.1.4
 [0.1.3]: https://github.com/ALPHA-g-Experiment/alpha-g/compare/alpha_g_physics-v0.1.2...alpha_g_physics-v0.1.3
