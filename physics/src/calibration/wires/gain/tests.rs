@@ -54,10 +54,40 @@ fn try_wire_gain_correctness_9277() {
 }
 
 #[test]
+fn try_wire_gain_ok_11084() {
+    for i in 0..TPC_ANODE_WIRES {
+        let wire = TpcWirePosition::try_from(i).unwrap();
+        let gain = try_wire_gain(11084, wire);
+        if i == 111 {
+            assert!(gain.is_err());
+        } else {
+            assert!(gain.is_ok());
+        }
+    }
+}
+
+#[test]
 fn try_wire_gain_correctness_11084() {
     assert_eq!(
         try_wire_gain(11084, TpcWirePosition::try_from(224).unwrap()).unwrap(),
         1.0729483132909592
+    );
+}
+
+#[test]
+fn try_wire_gain_ok_11356() {
+    for i in 0..TPC_ANODE_WIRES {
+        let wire = TpcWirePosition::try_from(i).unwrap();
+        let gain = try_wire_gain(11356, wire);
+        assert!(gain.is_ok());
+    }
+}
+
+#[test]
+fn try_wire_gain_correctness_11356() {
+    assert_eq!(
+        try_wire_gain(11356, TpcWirePosition::try_from(111).unwrap()).unwrap(),
+        1.0839053881577092
     );
 }
 
