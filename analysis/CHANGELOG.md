@@ -8,6 +8,12 @@ changes will be documented in this file.
 
 ## [Unreleased] - ReleaseDate
 
+### Fixed
+
+- Bump `alpha_g_physics` to version `0.1.5`, see
+  [its changelog](https://github.com/ALPHA-g-Experiment/alpha-g/blob/main/physics/CHANGELOG.md#015---2024-10-27)
+  for more details. This updates the wire gain calibration.
+
 ## [0.5.8] - 2024-10-16
 
 ### Fixed
